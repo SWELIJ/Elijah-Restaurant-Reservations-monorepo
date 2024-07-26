@@ -1,0 +1,40 @@
+/* General layout */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1B1B1E;
+}
+
+
+
+/* Navigation */
+
+.sidebar-brand-text {
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+.side-bar {
+  background-color: #1B1B1E;
+  min-width: 200px;
+}
+
+/* Headings */
+
+h1, h2 {
+  color: #FBFFFE;
+  text-align: center;
+}
+
+.headingBar {
+  background-color: #0088ff
+}
+
+/* Cards */
+
+
+
+
+
+/* Buttons */
+
