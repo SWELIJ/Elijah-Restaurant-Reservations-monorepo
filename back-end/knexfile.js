@@ -39,18 +39,7 @@ module.exports = {
     },
     debug: !!DEBUG,
   },
-  preview: {
-    client: "postgresql",
-    pool: { min: 1, max: 5 },
-    connection: DATABASE_URL_PREVIEW,
-    migrations: {
-      directory: path.join(__dirname, "src", "db", "migrations"),
-    },
-    seeds: {
-      directory: path.join(__dirname, "src", "db", "seeds"),
-    },
-    debug: !!DEBUG,
-  },
+  
   production: {
     client: "postgresql",
     pool: { min: 1, max: 5 },
